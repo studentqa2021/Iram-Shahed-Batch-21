@@ -1,4 +1,4 @@
-package prac;
+package com.prac;
 
 public class GrandParent implements B{
 	static String car = "bmw";

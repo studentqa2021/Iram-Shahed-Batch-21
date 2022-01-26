@@ -1,4 +1,4 @@
-package prac;
+package com.collection;
 
 import java.util.Arrays;
 
@@ -28,11 +28,11 @@ public class ArrayPrac {
 		}
 		
 		//nested loop to find duplicates in array
-
+		// 
 		for(int i = 0; i < b.length; i++) {
 			for(int j = (i+1); j < b.length; j++) {
 				if (b[i] == b[j]) {
-					System.out.println(b[j]);
+					System.out.print(b[j] + " ");
 				}
 	
 			}

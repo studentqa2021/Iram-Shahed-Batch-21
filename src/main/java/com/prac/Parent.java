@@ -1,4 +1,4 @@
-package prac;
+package com.prac;
 
 public class Parent extends GrandParent {
 	static int b = 4;
